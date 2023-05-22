@@ -9,9 +9,11 @@ tokenizer = Tokenizer(num_words=100,oov_token="<OOV>")
 tokenizer.fit_on_texts(sentences)
 word_index = tokenizer.word_index #Gives index for each word
 print(word_index)
-sequences = tokenizer.texts_to_sequences(sentences) #prints each sentence is word index squences
-print(sequences)
 
+for i in word_index:
+    print(i)
+#sequences = tokenizer.texts_to_sequences(sentences) #prints each sentence is word index squences
+#print(sequences)
 #padded = pad_sequences(sequences)
 #print(padded)
 
