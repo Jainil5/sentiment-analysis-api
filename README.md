@@ -6,6 +6,7 @@
 
 # Features of api:
 * Easy to use.
+* Supports multiple languages like english, french, spanish and etc.
 * You get a sentiment as response and not a score.
 * Can easily be applied in any project.
 
